@@ -1,0 +1,437 @@
+@import "mixsin";
+@import "global";
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@100;200;300;400;500;600;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Tenor+Sans&display=swap');
+
+#header{
+  //background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+  .navbar{
+    margin: 20px 0;
+    z-index: 100;
+    position: fixed;
+    filter: blur(0.2px);
+    @include cent();
+    img{
+        margin-right: 665px;
+
+    }
+    &--nav{
+      a{
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding-right: 30px;
+      }
+
+    }
+  }
+}
+#hero{
+  padding: 40px 0;
+  background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+  .hero{
+    margin-top: 40px;
+    @include cent();
+    &--title{
+      h1{
+        font-weight: 400;
+        font-size: 80px;
+        color: #FFFFFF;
+      }
+      h2{
+        font-weight: 400;
+        font-size: 30px;
+        color: #FFFFFF;
+        padding: 25px 0;
+      }
+      button{
+        padding: 15px 20px;
+        background: #FC0A7E;
+        border-radius: 3px;font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+    img{
+      width: 90vh;
+    }
+  }
+}
+#images{
+  padding: 80px 0 0  0;
+  background: #1B1B1B;
+  .images{
+    h2{
+      font-weight: 400;
+      font-size: 12px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #A8A8A8;
+      padding-bottom: 30px;
+    }
+    h1{
+      font-weight: 400;
+      font-size: 38px;
+      text-align: center;
+      color: #FFFFFF;
+      padding-bottom: 55px;
+    }
+    img{
+      @include center();
+      width: 100%;
+    }
+  }
+}
+#cay{
+  padding: 80px 0;
+  .cay{
+    @include line();
+    &--title{
+      h2{
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+      }
+      h1{
+        font-weight: 400;
+        font-size: 38px;
+        color: #000000;
+        padding: 30px 0;
+      }
+      p{
+        width: 306px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #6B6B6B;
+      }
+    }
+  }
+}
+#orders{
+  padding: 40px 0;
+  .orders{
+    @include line();
+    &--title{
+      h2{
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+      }
+      h1{
+        font-weight: 400;
+        font-size: 38px;
+        color: #000000;
+        padding: 30px 0;
+      }
+      p{
+        width: 306px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #6B6B6B;
+      }
+    }
+  }
+}
+#block{
+  padding: 40px 0;
+  .block{
+    @include line();
+    &--title{
+      h2{
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+      }
+      h1{
+        font-weight: 400;
+        font-size: 38px;
+        color: #000000;
+        padding: 30px 0;
+      }
+      p{
+        width: 306px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #6B6B6B;
+      }
+    }
+  }
+}
+#icons{
+  padding: 80px 0;
+  .icons{
+    @include cent();
+    &--one{
+      ion-icon{
+        font-weight: 700;
+        font-size: 30px;
+        color: #FD0B7D;
+        margin-left: 170px;
+      }
+      h1{
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: #000000;
+        padding: 17px 0;
+      }
+      p{
+        width: 351px;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #6B6B6B;
+      }
+    }
+  }
+}
+#number{
+  padding: 80px 0;
+  .number{
+    @include cent();
+    &--one{
+      h1{
+        font-weight: 400;
+        font-size: 59px;
+        color: #333333;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+      h2{
+        font-weight: 700;
+        font-size: 18px;
+        color: #000000;
+      }
+    }
+  }
+}
+#sem{
+  padding: 40px 0;
+  .sem{
+    @include line();
+    &--title{
+      h2{
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+        padding-bottom: 30px;
+      }
+      h1{
+        font-weight: 400;
+        font-size: 38px;
+        color: #000000;
+        padding-bottom: 22px;
+      }
+      p{
+        width: 330px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #6B6B6B;
+      }
+    }
+  }
+}
+#tort{
+  padding: 60px 0;
+  .tort{
+    @include line();
+    &--title{
+      h2{
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+      }
+      h1{
+        font-weight: 400;
+        font-size: 38px;
+        color: #000000;
+        padding: 27px 0;
+      }
+      p{
+        width: 330px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #6B6B6B;
+      }
+    }
+  }
+}
+#text{
+  padding: 40px;
+  .text{
+    text-align: center;
+    &--icon{
+      @include center();
+      ion-icon{
+        font-size: 35px;
+        font-weight: 800;
+        color: #D6D6D6;
+        padding-bottom: 65px;
+      }
+    }
+    &--par{
+      @include center();
+      p{
+        width: 700px;
+        font-weight: 400;
+        font-size: 24px;
+        //text-align: center;
+        color: #6B6B6B;
+        padding-bottom: 17px;
+      }
+    }
+
+    &--title{
+      @include center();
+      margin-bottom: 88px;
+      h2{
+        font-weight: 400;
+        font-size: 16px;
+        color: #6B6B6B;
+        padding-right: 70px;
+      }
+      &__line{
+        width: 30px;
+        height: 1px;
+        left: calc(50% - 30px/2 - 10px);
+        top: calc(50% - 1px/2 - 4.88px);
+        background: #D3D3D3;
+        border-radius: 0px;
+        margin-right:70px ;
+      }
+      h1{
+        font-weight: 700;
+        font-size: 16px;
+        color: #6B6B6B;
+      }
+    }
+    &--sqiore{
+      @include center();
+      &__one{
+        width: 7px;
+        height: 7px;
+        background: #222222;
+        margin-right: 16px;
+      }
+    }
+  }
+}
+#veb{
+  padding: 40px 0;
+  .veb{
+    &--ion{
+      @include line();
+      ion-icon{
+        font-weight: 700;
+        font-size: 30px;
+        color: #6B6B6B;
+      }
+    }
+
+  }
+}
+#img{
+    img{
+      width: 100%;
+      height: 518px;
+    }
+}
+#btn{
+padding:0 0 156px 0 ;
+  background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+  .btn{
+    h1{
+      font-weight: 400;
+      font-size: 38px;
+      text-align: center;
+      color: #FFFFFF;
+      padding-top: 165px;
+    }
+    &--one{
+      margin-top: 40px;
+      @include center();
+      button{
+        width: 190px;
+        height: 66px;
+        background: #FC0A7E;
+        border-radius: 3px;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-right: 10px;
+      }
+      button:hover{
+        background: transparent;
+        border: 2px solid #FFFFFF;
+
+      }
+    }
+  }
+}
+#footer{
+  padding: 40px 0;
+  background: #1B1B1B;
+  .footer{
+    h1{
+      font-weight: 400;
+      font-size: 38px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-top: 30px;
+    }
+    h2{
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #6B6B6B;
+      padding: 40px 0;
+    }
+    &--icons{
+      @include center();
+      padding-bottom: 146px;
+      input{
+        width: 311px;
+        height: 70px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 0px #FC0A7E;
+        border-radius: 3px 0px 0px 3px;
+        outline: none;
+      }
+      button{
+        width: 154px;
+        height: 69px;
+        background: #FC0A7E;
+        border-radius: 0px 3px 3px 0px;
+      }
+    }
+    &--title{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h1{
+        font-weight: 400;
+        font-size: 12px;
+        color: #6B6B6B;
+        text-align: center;
+        margin-right: 30px;
+      }
+    }
+    img{
+      margin-left: 510px;
+      padding-bottom: 30px;
+    }
+
+  }
+}
